@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: it.codegen.training.SunTravels.controller.RoomControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.102 s <<< FAILURE! - in it.codegen.training.SunTravels.controller.RoomControllerTest
+testDeleteRoom  Time elapsed: 0.019 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at it.codegen.training.SunTravels.controller.RoomControllerTest.testDeleteRoom(RoomControllerTest.java:133)
+

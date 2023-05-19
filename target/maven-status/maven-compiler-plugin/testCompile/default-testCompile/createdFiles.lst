@@ -1,0 +1,7 @@
+it\codegen\training\SunTravels\repository\HotelRepositoryTest.class
+it\codegen\training\SunTravels\controller\HotelControllerTest.class
+it\codegen\training\SunTravels\controller\RoomControllerTest.class
+it\codegen\training\SunTravels\service\HotelServiceTest.class
+it\codegen\training\SunTravels\service\RoomServiceTest.class
+it\codegen\training\SunTravels\repository\RoomRepositoryTest.class
+it\codegen\training\SunTravels\SunTravelsApplicationTests.class

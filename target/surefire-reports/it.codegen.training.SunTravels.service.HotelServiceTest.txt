@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: it.codegen.training.SunTravels.service.HotelServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.84 s <<< FAILURE! - in it.codegen.training.SunTravels.service.HotelServiceTest
+testGetAllHotels  Time elapsed: 0.04 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "it.codegen.training.SunTravels.repository.HotelRepository.findAll()" because "this.hotelRepository" is null
+	at it.codegen.training.SunTravels.service.HotelServiceTest.testGetAllHotels(HotelServiceTest.java:137)
+
+testGetHotelById  Time elapsed: 0.025 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "it.codegen.training.SunTravels.repository.HotelRepository.findById(Object)" because "this.hotelRepository" is null
+	at it.codegen.training.SunTravels.service.HotelServiceTest.testGetHotelById(HotelServiceTest.java:110)
+
+testSaveHotel  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "it.codegen.training.SunTravels.repository.HotelRepository.save(Object)" because "this.hotelRepository" is null
+	at it.codegen.training.SunTravels.service.HotelServiceTest.testSaveHotel(HotelServiceTest.java:84)
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: it.codegen.training.SunTravels.SunTravelsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.852 s - in it.codegen.training.SunTravels.SunTravelsApplicationTests

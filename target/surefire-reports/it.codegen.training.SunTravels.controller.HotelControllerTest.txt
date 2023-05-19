@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: it.codegen.training.SunTravels.controller.HotelControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 5.734 s <<< FAILURE! - in it.codegen.training.SunTravels.controller.HotelControllerTest
+testSave  Time elapsed: 0.323 s  <<< ERROR!
+java.lang.IllegalArgumentException: json string can not be null or empty
+	at it.codegen.training.SunTravels.controller.HotelControllerTest.testSave(HotelControllerTest.java:118)
+
+testGetById  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalArgumentException: json string can not be null or empty
+	at it.codegen.training.SunTravels.controller.HotelControllerTest.testGetById(HotelControllerTest.java:93)
+
+testDelete  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.IllegalArgumentException: json string can not be null or empty
+	at it.codegen.training.SunTravels.controller.HotelControllerTest.testDelete(HotelControllerTest.java:175)
+
+testGetAll  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.IllegalArgumentException: json string can not be null or empty
+	at it.codegen.training.SunTravels.controller.HotelControllerTest.testGetAll(HotelControllerTest.java:73)
+
+testUpdate  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.IllegalArgumentException: json string can not be null or empty
+	at it.codegen.training.SunTravels.controller.HotelControllerTest.testUpdate(HotelControllerTest.java:148)
+
